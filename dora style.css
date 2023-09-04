@@ -1,0 +1,209 @@
+#dora {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    opacity: 1;
+    left: 400px;
+  }
+  #dora .face {
+    width: 400px;
+    height: 400px;
+    background-color: #0A7BDC;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 10%;
+  }
+  #dora .face_inner {
+    background-color: white;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+  }
+  #dora .left_eye {
+    background-color: #FFF;
+    border: solid 1px #666;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: -5%;
+  }
+  #dora .right_eye {
+    background-color: #FFF;
+    border: solid 1px #666;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    right: 50%;
+    top: -5%;
+  }
+  #dora .black {
+    background-color: #241C28;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15%;
+  }
+  #dora .left_eye .black {
+    left: 6%;
+  }
+  #dora .right_eye .black {
+    right: 6%;
+  }
+  #dora .light {
+    background-color: #FFF;
+    width: 5px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 35%;  
+  }
+  #dora .right_eye .light {
+    right: 20%;
+  }
+  #dora .left_eye .light {
+    left: 20%;
+  }
+  #dora .nose {
+    background-color: #D6131F;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 72%;
+  }
+  #dora .nose .light {
+    width: 15px;
+    height: 15px;
+    bottom: 50%;
+    left: 20%;
+  }
+  #dora .mouse_line {
+    background-color: #241C28;
+    width: 3px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 28%;  
+  }
+  #dora .mouse_underline {
+    border: solid 3px #241C28;
+    border-radius: 50%;
+    width: 230px;
+    height: 110px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 29%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  #dora .whisker div div {
+    width: 120px;
+    height: 2px;
+    background-color: #241C28;
+    position: absolute;
+  }
+  #dora .whisker .top div {
+    top: 30%;
+  }
+  #dora .whisker .middle div {
+    top: 40%;
+  }
+  #dora .whisker .bottom div {
+    top: 50%;
+  }
+  #dora .whisker .left {
+    left: 5%;
+  }
+  #dora .whisker .right {
+    right: 5%;
+  }
+  #dora .whisker .top .right,
+  .whisker .bottom .left {
+    transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+  }
+  #dora .whisker .top .left,
+  .whisker .bottom .right {
+    transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+  }
+  #dora .neck {
+    background-color: #D6131F;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 5px;
+  }
+  #dora .bell {
+    background-color: #E3D218;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -50px;
+  }
+  #dora .bell_line {
+    background-color: #E3D218;
+    border-radius: 10px;
+    width: 80px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 50px;
+    border: solid 1px #999;
+  }
+  #dora .bell_hall {
+    background-color: #241C28;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 30%;
+  }
+  #dora .bell_hallline {
+    background-color: #241C28;
+    width: 2px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+  }  
